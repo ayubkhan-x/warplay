@@ -7,7 +7,7 @@ async function bootstrap() {
 
     app.use(cookieParser());
     app.enableCors({
-        origin: 'http://localhost:8080',
+        origin: 'https://warplay-ayubkhan.netlify.app',
         credentials: true
     })
 
