@@ -9,10 +9,11 @@ import {JwtModule} from "@nestjs/jwt";
     imports: [
         TypeOrmModule.forRoot({
             type: 'mysql',
-            host: '127.0.0.1',
-            port: 3306,
+            host: 'containers-us-west-163.railway.app',
+            port: 7331,
             username: 'root',
-            database: 'yt_nest_auth',
+            password: 'xgwcMHUUJDohgMsfGe0o',
+            database: 'railway',
             entities: [User],
             synchronize: true,
         }),
